@@ -2,8 +2,13 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
-
 const Listing = require("./Models/listing");
+const path = require("path");
+
+
+app.set("view engine", "ejs");
+app.set("views", path.join(__dirname, "views"));
+app.use(express.urlencoded({extended : true}));
 
 main()
     .then(() => {
@@ -25,7 +30,24 @@ app.get("/", (req,res) => {
     res.send("Hi, i am root")
 })
 
+//index route 
 
+app.get("/listings", async (req,res) => {
+    let allListings = await Listing.find({});
+    res.render("listings/index.ejs", { allListings });
+} );
+
+//show route 
+
+app.get("/listings/:id", async(req,res) => {
+    let {id} = req.params;
+    const listing = await Listing.findById(id);
+    res.render("listings/show.ejs", { listing });
+} );
+
+app.get("/listing/new", (req,res)=> {
+    res.render("/create.ejs");
+});
 
 
 
