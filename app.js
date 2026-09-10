@@ -37,6 +37,17 @@ app.get("/listings", async (req,res) => {
     res.render("listings/index.ejs", { allListings });
 } );
 
+app.get("/listings/new", (req,res)=> {
+    res.render("listings/new.ejs");
+});
+
+// create route
+app.post("/listings", async (req, res) => {
+    const newListing = new Listing(req.body.listing);
+    await newListing.save();
+    res.redirect(`/listings/${newListing._id}`);
+});
+
 //show route 
 
 app.get("/listings/:id", async(req,res) => {
@@ -44,11 +55,6 @@ app.get("/listings/:id", async(req,res) => {
     const listing = await Listing.findById(id);
     res.render("listings/show.ejs", { listing });
 } );
-
-app.get("/listing/new", (req,res)=> {
-    res.render("/create.ejs");
-});
-
 
 
 app.listen(8080, () => {
