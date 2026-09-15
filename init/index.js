@@ -11,7 +11,11 @@ const { data } = require("./data.js");
 
 const initDB = async () => {
     await Listing.deleteMany({});
-    await Listing.insertMany(data);
+    const listings = data.map((listing) => ({
+        ...listing,
+        image: typeof listing.image === "string" ? listing.image : listing.image.url,
+    }));
+    await Listing.insertMany(listings);
     console.log("Data was initialized");
 };
 
