@@ -1,0 +1,80 @@
+/* =========================
+   HAVENA NAVBAR
+========================= */
+
+.navbar {
+    background-color: #2C2A26 !important;
+    height: 5rem;
+}
+
+.navbar .navbar-brand {
+    color: #F4F0E6 !important;
+}
+
+.navbar .nav-link {
+    color: #F4F0E6 !important;
+}
+
+.navbar .nav-link:hover {
+    color: #A3AD8D !important;
+}
+/* Listing links */
+
+a {
+    color: #3B3935;
+}
+
+a:hover {
+    color: #B86B4B;
+}
+
+
+/* =========================
+   HAVENA FOOTER
+========================= */
+
+footer {
+    background-color: #24221F;
+    color: #F4F0E6;
+
+    padding: 2.5rem 3rem;
+    margin-top: 4rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.f-info-social {
+    display: flex;
+    gap: 1rem;
+}
+
+.f-info-social i {
+    color: #F4F0E6;
+    font-size: 1.2rem;
+
+    transition: color 0.2s ease;
+}
+
+.f-info-social i:hover {
+    color: #A3AD8D;
+}
+
+.f-info-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.f-info-links a {
+    color: #F4F0E6;
+    text-decoration: none;
+
+    transition: color 0.2s ease;
+}
+
+.f-info-links a:hover {
+    color: #A3AD8D;
+}
