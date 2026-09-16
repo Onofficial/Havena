@@ -2,7 +2,7 @@ const sampleListings = [
     {
         title: "Cozy Beachfront Cottage",
         description: "A peaceful cottage right by the beach, perfect for a relaxing getaway.",
-        image: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80",
         price: 2500,
         location: "Goa",
         country: "India",
@@ -10,15 +10,15 @@ const sampleListings = [
     {
         title: "Modern Apartment in Mumbai",
         description: "A stylish apartment in the heart of Mumbai, close to restaurants and nightlife.",
-        image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80",
         price: 4500,
         location: "Mumbai",
         country: "India",
     },
     {
         title: "Mountain Cabin",
-        description: "A beautiful wooden cabin surrounded by mountains and nature.",
-        image: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=60",
+        description: "A beautiful wooden cabin surrounded by mountains and peaceful nature.",
+        image: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=900&q=80",
         price: 3200,
         location: "Manali",
         country: "India",
@@ -26,7 +26,7 @@ const sampleListings = [
     {
         title: "Luxury Villa with Pool",
         description: "A spacious luxury villa featuring a private pool and stunning views.",
-        image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=900&q=80",
         price: 8500,
         location: "Udaipur",
         country: "India",
@@ -34,7 +34,7 @@ const sampleListings = [
     {
         title: "Forest Retreat",
         description: "A cozy stay surrounded by dense forests, perfect for nature lovers.",
-        image: "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=900&q=80",
         price: 2800,
         location: "Coorg",
         country: "India",
@@ -42,15 +42,15 @@ const sampleListings = [
     {
         title: "Ocean View House",
         description: "Wake up to beautiful ocean views from this comfortable seaside home.",
-        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80",
         price: 6000,
         location: "Pondicherry",
         country: "India",
     },
     {
         title: "Snowy Mountain Lodge",
-        description: "A warm and comfortable lodge surrounded by snowy mountains.",
-        image: "https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&w=800&q=60",
+        description: "A warm and comfortable lodge surrounded by snow-covered mountains.",
+        image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80",
         price: 5000,
         location: "Shimla",
         country: "India",
@@ -58,7 +58,7 @@ const sampleListings = [
     {
         title: "Desert Camp",
         description: "Experience the beauty of the desert with a unique and comfortable stay.",
-        image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
         price: 3500,
         location: "Jaisalmer",
         country: "India",
@@ -66,7 +66,7 @@ const sampleListings = [
     {
         title: "Hillside Cottage",
         description: "A peaceful cottage overlooking green valleys and beautiful hills.",
-        image: "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=80",
         price: 2900,
         location: "Mussoorie",
         country: "India",
@@ -74,7 +74,7 @@ const sampleListings = [
     {
         title: "Royal Palace Stay",
         description: "Experience traditional Indian luxury in a beautiful royal-style property.",
-        image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
         price: 7500,
         location: "Jaipur",
         country: "India",
@@ -82,7 +82,7 @@ const sampleListings = [
     {
         title: "Lakeside Retreat",
         description: "A relaxing home beside a peaceful lake surrounded by nature.",
-        image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=900&q=80",
         price: 4200,
         location: "Nainital",
         country: "India",
@@ -90,7 +90,7 @@ const sampleListings = [
     {
         title: "Beach House",
         description: "A beautiful beach house with direct access to the sandy shore.",
-        image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
         price: 5500,
         location: "Alibaug",
         country: "India",
@@ -98,7 +98,7 @@ const sampleListings = [
     {
         title: "Luxury City Loft",
         description: "A modern loft located close to the best attractions in the city.",
-        image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80",
         price: 4800,
         location: "Bangalore",
         country: "India",
@@ -106,7 +106,7 @@ const sampleListings = [
     {
         title: "Tea Estate Cottage",
         description: "Stay among beautiful tea gardens in a peaceful mountain setting.",
-        image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=900&q=80",
         price: 3400,
         location: "Munnar",
         country: "India",
@@ -114,7 +114,7 @@ const sampleListings = [
     {
         title: "Riverside Villa",
         description: "A spacious villa overlooking a beautiful river and green landscape.",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
         price: 6200,
         location: "Rishikesh",
         country: "India",
@@ -122,7 +122,7 @@ const sampleListings = [
     {
         title: "Heritage Haveli",
         description: "A charming heritage property offering traditional architecture and comfort.",
-        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80",
         price: 3900,
         location: "Jodhpur",
         country: "India",
@@ -130,7 +130,7 @@ const sampleListings = [
     {
         title: "Tropical Villa",
         description: "A tropical villa surrounded by palm trees and beautiful gardens.",
-        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600585152915-d208bec867a1?auto=format&fit=crop&w=900&q=80",
         price: 7000,
         location: "Goa",
         country: "India",
@@ -138,7 +138,7 @@ const sampleListings = [
     {
         title: "Countryside Farmhouse",
         description: "A quiet farmhouse perfect for escaping the noise of the city.",
-        image: "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=900&q=80",
         price: 3100,
         location: "Lonavala",
         country: "India",
@@ -146,7 +146,7 @@ const sampleListings = [
     {
         title: "Modern Studio",
         description: "A compact modern studio with everything needed for a comfortable stay.",
-        image: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=900&q=80",
         price: 2200,
         location: "Delhi",
         country: "India",
@@ -154,7 +154,7 @@ const sampleListings = [
     {
         title: "Valley View Home",
         description: "A comfortable home offering spectacular views of the surrounding valley.",
-        image: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1482192505345-5655af888cc4?auto=format&fit=crop&w=900&q=80",
         price: 3600,
         location: "Kasauli",
         country: "India",
@@ -162,7 +162,7 @@ const sampleListings = [
     {
         title: "Luxury Penthouse",
         description: "A premium penthouse with panoramic city views and elegant interiors.",
-        image: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=900&q=80",
         price: 9500,
         location: "Mumbai",
         country: "India",
@@ -170,7 +170,7 @@ const sampleListings = [
     {
         title: "Secluded Beach Villa",
         description: "A private villa for guests looking for peace, privacy, and ocean views.",
-        image: "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=900&q=80",
         price: 7800,
         location: "Andaman",
         country: "India",
@@ -178,7 +178,7 @@ const sampleListings = [
     {
         title: "Mountain View Apartment",
         description: "A modern apartment with breathtaking views of the Himalayan mountains.",
-        image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80",
         price: 3800,
         location: "Manali",
         country: "India",
@@ -186,7 +186,7 @@ const sampleListings = [
     {
         title: "Lakefront Cabin",
         description: "A cozy wooden cabin sitting right beside a peaceful mountain lake.",
-        image: "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1473445361085-b9a07f55608b?auto=format&fit=crop&w=900&q=80",
         price: 4100,
         location: "Nainital",
         country: "India",
@@ -194,7 +194,7 @@ const sampleListings = [
     {
         title: "Rooftop Apartment",
         description: "A stylish apartment with a private rooftop and beautiful city views.",
-        image: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80",
         price: 4300,
         location: "Delhi",
         country: "India",
@@ -202,7 +202,7 @@ const sampleListings = [
     {
         title: "Jungle Retreat",
         description: "A peaceful jungle stay surrounded by wildlife and lush greenery.",
-        image: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80",
         price: 3300,
         location: "Wayanad",
         country: "India",
@@ -210,7 +210,7 @@ const sampleListings = [
     {
         title: "Sunset Beach Resort",
         description: "Enjoy stunning sunsets from this comfortable property near the beach.",
-        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
         price: 5900,
         location: "Goa",
         country: "India",
@@ -218,7 +218,7 @@ const sampleListings = [
     {
         title: "Colonial House",
         description: "A beautiful colonial-era home combining history with modern comfort.",
-        image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80",
         price: 3500,
         location: "Kolkata",
         country: "India",
@@ -226,7 +226,7 @@ const sampleListings = [
     {
         title: "Hilltop Villa",
         description: "A luxurious villa sitting on a hilltop with panoramic valley views.",
-        image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
         price: 8200,
         location: "Dehradun",
         country: "India",
@@ -234,7 +234,7 @@ const sampleListings = [
     {
         title: "Coastal Apartment",
         description: "A bright apartment located just minutes away from the coast.",
-        image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80",
         price: 3700,
         location: "Kochi",
         country: "India",
@@ -242,7 +242,7 @@ const sampleListings = [
     {
         title: "Luxury Desert Villa",
         description: "A luxurious desert property offering an unforgettable experience.",
-        image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
         price: 6800,
         location: "Jaisalmer",
         country: "India",
@@ -250,7 +250,7 @@ const sampleListings = [
     {
         title: "Garden Cottage",
         description: "A charming cottage surrounded by flowers and peaceful gardens.",
-        image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80",
         price: 2700,
         location: "Pune",
         country: "India",
@@ -258,7 +258,7 @@ const sampleListings = [
     {
         title: "Himalayan Retreat",
         description: "A peaceful retreat surrounded by pine forests and Himalayan peaks.",
-        image: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80",
         price: 4500,
         location: "Kasol",
         country: "India",
@@ -266,7 +266,7 @@ const sampleListings = [
     {
         title: "Modern Villa",
         description: "A contemporary villa with spacious rooms and a private garden.",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=900&q=80",
         price: 7200,
         location: "Hyderabad",
         country: "India",
@@ -274,7 +274,7 @@ const sampleListings = [
     {
         title: "Oceanfront Villa",
         description: "A luxurious oceanfront villa with direct access to the beach.",
-        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=900&q=80",
         price: 9000,
         location: "Kerala",
         country: "India",
@@ -282,7 +282,7 @@ const sampleListings = [
     {
         title: "Peaceful Homestay",
         description: "A welcoming homestay offering a quiet and comfortable experience.",
-        image: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80",
         price: 1800,
         location: "Rishikesh",
         country: "India",
@@ -290,7 +290,7 @@ const sampleListings = [
     {
         title: "Snow Valley Cabin",
         description: "A warm cabin surrounded by snow-covered mountains and forests.",
-        image: "https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80",
         price: 4700,
         location: "Gulmarg",
         country: "India",
@@ -298,7 +298,7 @@ const sampleListings = [
     {
         title: "Heritage Palace",
         description: "Stay in an elegant heritage property filled with history and charm.",
-        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80",
         price: 8800,
         location: "Udaipur",
         country: "India",
@@ -306,7 +306,7 @@ const sampleListings = [
     {
         title: "Forest Cabin",
         description: "A secluded cabin deep inside a peaceful forest.",
-        image: "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80",
         price: 3000,
         location: "Jim Corbett",
         country: "India",
@@ -314,7 +314,7 @@ const sampleListings = [
     {
         title: "City Center Flat",
         description: "A convenient apartment located close to shopping and major attractions.",
-        image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80",
         price: 2900,
         location: "Bangalore",
         country: "India",
@@ -322,7 +322,7 @@ const sampleListings = [
     {
         title: "Palm Tree Villa",
         description: "A tropical villa surrounded by palm trees and beautiful greenery.",
-        image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600585152915-d208bec867a1?auto=format&fit=crop&w=900&q=80",
         price: 6500,
         location: "Goa",
         country: "India",
@@ -330,7 +330,7 @@ const sampleListings = [
     {
         title: "Riverside Cottage",
         description: "A cozy cottage with peaceful river views and fresh mountain air.",
-        image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=900&q=80",
         price: 3100,
         location: "Rishikesh",
         country: "India",
@@ -338,7 +338,7 @@ const sampleListings = [
     {
         title: "Tea Garden Retreat",
         description: "A relaxing property surrounded by endless green tea plantations.",
-        image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=900&q=80",
         price: 3600,
         location: "Darjeeling",
         country: "India",
@@ -346,7 +346,7 @@ const sampleListings = [
     {
         title: "Royal Haveli",
         description: "A beautifully restored haveli offering a traditional royal experience.",
-        image: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
         price: 5400,
         location: "Jodhpur",
         country: "India",
@@ -354,7 +354,7 @@ const sampleListings = [
     {
         title: "Beachside Apartment",
         description: "A comfortable apartment with easy access to the beach and local cafes.",
-        image: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=900&q=80",
         price: 4200,
         location: "Pondicherry",
         country: "India",
@@ -362,7 +362,7 @@ const sampleListings = [
     {
         title: "Mountain Escape",
         description: "A peaceful mountain home perfect for relaxing and disconnecting.",
-        image: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80",
         price: 3400,
         location: "Manali",
         country: "India",
@@ -370,7 +370,7 @@ const sampleListings = [
     {
         title: "Luxury Pool House",
         description: "A premium house featuring a private pool and spacious outdoor area.",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
         price: 8000,
         location: "Lonavala",
         country: "India",
@@ -378,7 +378,7 @@ const sampleListings = [
     {
         title: "Seaside Cottage",
         description: "A cozy cottage where you can enjoy peaceful mornings beside the sea.",
-        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
         price: 3900,
         location: "Alibaug",
         country: "India",
@@ -386,7 +386,7 @@ const sampleListings = [
     {
         title: "Valley Cottage",
         description: "A small cottage with beautiful views of green valleys and hills.",
-        image: "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=80",
         price: 2600,
         location: "Mussoorie",
         country: "India",
@@ -394,7 +394,7 @@ const sampleListings = [
     {
         title: "Luxury City Apartment",
         description: "A stylish apartment with modern furniture and excellent city access.",
-        image: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80",
         price: 5200,
         location: "Delhi",
         country: "India",
@@ -402,7 +402,7 @@ const sampleListings = [
     {
         title: "Jungle Lodge",
         description: "A comfortable lodge surrounded by forests and natural beauty.",
-        image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=900&q=80",
         price: 4300,
         location: "Wayanad",
         country: "India",
@@ -410,7 +410,7 @@ const sampleListings = [
     {
         title: "Lakeside Villa",
         description: "A beautiful villa overlooking a calm lake and surrounding mountains.",
-        image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=900&q=80",
         price: 7600,
         location: "Udaipur",
         country: "India",
@@ -418,7 +418,7 @@ const sampleListings = [
     {
         title: "Cozy Studio Apartment",
         description: "A clean and modern studio perfect for solo travelers and couples.",
-        image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=900&q=80",
         price: 2100,
         location: "Pune",
         country: "India",
@@ -426,7 +426,7 @@ const sampleListings = [
     {
         title: "Desert Heritage Home",
         description: "A traditional home offering an authentic desert experience.",
-        image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
         price: 3300,
         location: "Jaisalmer",
         country: "India",
@@ -434,7 +434,7 @@ const sampleListings = [
     {
         title: "Hillside Homestay",
         description: "A friendly homestay with beautiful views and peaceful surroundings.",
-        image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=900&q=80",
         price: 2300,
         location: "Shimla",
         country: "India",
@@ -442,7 +442,7 @@ const sampleListings = [
     {
         title: "Private Beach Villa",
         description: "A spacious private villa just steps away from the ocean.",
-        image: "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=900&q=80",
         price: 8400,
         location: "Goa",
         country: "India",
@@ -450,7 +450,7 @@ const sampleListings = [
     {
         title: "Modern Hillside Home",
         description: "A contemporary home surrounded by mountains and fresh air.",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
         price: 4600,
         location: "Kasauli",
         country: "India",
@@ -458,7 +458,7 @@ const sampleListings = [
     {
         title: "Riverside Retreat",
         description: "A peaceful riverside property perfect for a relaxing weekend.",
-        image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=900&q=80",
         price: 3500,
         location: "Rishikesh",
         country: "India",
@@ -466,7 +466,7 @@ const sampleListings = [
     {
         title: "Colonial Villa",
         description: "A historic villa featuring classic architecture and modern amenities.",
-        image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=900&q=80",
         price: 5700,
         location: "Kolkata",
         country: "India",
@@ -474,7 +474,7 @@ const sampleListings = [
     {
         title: "Luxury Lake House",
         description: "A luxurious lake house with large windows and beautiful views.",
-        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=80",
         price: 7900,
         location: "Nainital",
         country: "India",
@@ -482,7 +482,7 @@ const sampleListings = [
     {
         title: "Forest View Apartment",
         description: "A modern apartment overlooking lush green forests.",
-        image: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80",
         price: 3200,
         location: "Coorg",
         country: "India",
@@ -490,7 +490,7 @@ const sampleListings = [
     {
         title: "Snow Mountain Villa",
         description: "A warm luxury villa with spectacular snow-covered mountain views.",
-        image: "https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80",
         price: 6800,
         location: "Gulmarg",
         country: "India",
@@ -498,7 +498,7 @@ const sampleListings = [
     {
         title: "Tropical Beach Cottage",
         description: "A colorful cottage surrounded by tropical greenery near the beach.",
-        image: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
         price: 3100,
         location: "Goa",
         country: "India",
@@ -506,7 +506,7 @@ const sampleListings = [
     {
         title: "City View Penthouse",
         description: "A premium penthouse with stunning views across the city skyline.",
-        image: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80",
         price: 9800,
         location: "Mumbai",
         country: "India",
@@ -514,7 +514,7 @@ const sampleListings = [
     {
         title: "Peaceful Mountain Cabin",
         description: "A secluded cabin surrounded by pine trees and mountain scenery.",
-        image: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=900&q=80",
         price: 3700,
         location: "Kasol",
         country: "India",
@@ -522,7 +522,7 @@ const sampleListings = [
     {
         title: "Garden Villa",
         description: "A spacious villa surrounded by beautiful gardens and greenery.",
-        image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=900&q=80",
         price: 6100,
         location: "Pune",
         country: "India",
@@ -530,7 +530,7 @@ const sampleListings = [
     {
         title: "Ocean Breeze Home",
         description: "A bright seaside home where you can relax and enjoy the ocean breeze.",
-        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=900&q=80",
         price: 4800,
         location: "Kochi",
         country: "India",
@@ -538,7 +538,7 @@ const sampleListings = [
     {
         title: "Royal City Residence",
         description: "An elegant residence inspired by traditional Indian royal architecture.",
-        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80",
         price: 7300,
         location: "Jaipur",
         country: "India",
@@ -546,7 +546,7 @@ const sampleListings = [
     {
         title: "Countryside Cottage",
         description: "A charming cottage surrounded by fields and peaceful countryside.",
-        image: "https://images.unsplash.com/photo-1505843513577-22bb7d21e455?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=900&q=80",
         price: 2400,
         location: "Lonavala",
         country: "India",
@@ -554,7 +554,7 @@ const sampleListings = [
     {
         title: "Modern Coastal Villa",
         description: "A modern villa with beautiful interiors and easy beach access.",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=900&q=80",
         price: 6900,
         location: "Pondicherry",
         country: "India",
@@ -562,7 +562,7 @@ const sampleListings = [
     {
         title: "Himalayan Homestay",
         description: "A cozy homestay offering peaceful mountain views and fresh air.",
-        image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80",
         price: 2800,
         location: "Manali",
         country: "India",
@@ -570,7 +570,7 @@ const sampleListings = [
     {
         title: "Luxury Forest Villa",
         description: "A private luxury villa hidden among lush green forests.",
-        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
         price: 7500,
         location: "Wayanad",
         country: "India",
@@ -578,7 +578,7 @@ const sampleListings = [
     {
         title: "Sunset Cottage",
         description: "A peaceful cottage offering beautiful sunset views every evening.",
-        image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80",
         price: 3000,
         location: "Goa",
         country: "India",
@@ -586,7 +586,7 @@ const sampleListings = [
     {
         title: "Mountain Luxury Lodge",
         description: "A premium lodge with cozy interiors and breathtaking mountain views.",
-        image: "https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80",
         price: 6400,
         location: "Shimla",
         country: "India",
@@ -594,7 +594,7 @@ const sampleListings = [
     {
         title: "Lake View Cottage",
         description: "A cozy cottage overlooking a peaceful lake surrounded by hills.",
-        image: "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=80",
         price: 2900,
         location: "Nainital",
         country: "India",
@@ -602,7 +602,7 @@ const sampleListings = [
     {
         title: "Beachfront Luxury Home",
         description: "A luxurious home with direct beach access and ocean views.",
-        image: "https://images.unsplash.com/photo-1601918774946-25832a4be0d6?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=900&q=80",
         price: 8700,
         location: "Andaman",
         country: "India",
@@ -610,7 +610,7 @@ const sampleListings = [
     {
         title: "Traditional Haveli Stay",
         description: "Experience traditional architecture with comfortable modern rooms.",
-        image: "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
         price: 4400,
         location: "Jodhpur",
         country: "India",
@@ -618,7 +618,7 @@ const sampleListings = [
     {
         title: "Green Valley House",
         description: "A comfortable house overlooking a beautiful green valley.",
-        image: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=900&q=80",
         price: 3500,
         location: "Mussoorie",
         country: "India",
@@ -626,7 +626,7 @@ const sampleListings = [
     {
         title: "Urban Luxury Flat",
         description: "A premium modern flat located in the heart of the city.",
-        image: "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80",
         price: 5100,
         location: "Bangalore",
         country: "India",
@@ -634,7 +634,7 @@ const sampleListings = [
     {
         title: "Desert Sunset Camp",
         description: "Enjoy unforgettable sunsets and peaceful nights in the desert.",
-        image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
         price: 3600,
         location: "Jaisalmer",
         country: "India",
@@ -642,7 +642,7 @@ const sampleListings = [
     {
         title: "Riverside Luxury Villa",
         description: "A spacious luxury villa overlooking a peaceful river.",
-        image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
         price: 7100,
         location: "Rishikesh",
         country: "India",
@@ -650,7 +650,7 @@ const sampleListings = [
     {
         title: "Cozy City Home",
         description: "A comfortable home in a quiet neighborhood close to the city center.",
-        image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80",
         price: 2600,
         location: "Delhi",
         country: "India",
@@ -658,7 +658,7 @@ const sampleListings = [
     {
         title: "Tea Estate Villa",
         description: "A beautiful villa surrounded by peaceful tea plantations.",
-        image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=900&q=80",
         price: 5800,
         location: "Munnar",
         country: "India",
@@ -666,7 +666,7 @@ const sampleListings = [
     {
         title: "Palm Garden House",
         description: "A relaxing house surrounded by palm trees and tropical gardens.",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1600585152915-d208bec867a1?auto=format&fit=crop&w=900&q=80",
         price: 4200,
         location: "Kerala",
         country: "India",
@@ -674,7 +674,7 @@ const sampleListings = [
     {
         title: "Hill Station Retreat",
         description: "A peaceful retreat with cool weather and beautiful mountain scenery.",
-        image: "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=900&q=80",
         price: 3100,
         location: "Ooty",
         country: "India",
@@ -682,7 +682,7 @@ const sampleListings = [
     {
         title: "Luxury Heritage Villa",
         description: "A grand heritage villa combining traditional design with modern luxury.",
-        image: "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=60",
+        image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=900&q=80",
         price: 9200,
         location: "Udaipur",
         country: "India",

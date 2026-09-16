@@ -1,12 +1,66 @@
-<% layout("/layouts/boilerplate")%>
-<body>
-    <!-- <form action="/listings/new"
-    method="GET">
-    
+<% layout("/layouts/boilerplate") %>
 
-<button>Create new listing </button></form> -->
-    <% for (let listing of allListings) { %>
-        <h3><a href="/listings/<%= listing._id %>"><%= listing.title %></a></h3>
-    <% } %>
+<body>
+
+    <section class="hero-section">
+
+        <div class="hero-content">
+
+            <p class="hero-eyebrow">
+                DISCOVER YOUR HAVEN
+            </p>
+
+            <h1>
+                Find Your Next <br> Escape
+            </h1>
+
+            <p class="hero-description">
+                Beautiful stays, memorable places, and a little
+                somewhere to call your own.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <div class="listing-grid">
+
+        <% for (let listing of allListings) { %>
+
+            <div class="card">
+
+                <img
+                    src="<%= listing.image %>"
+                    class="card-img-top"
+                    alt="<%= listing.title %>"
+                >
+
+                <div class="card-body">
+
+                    <a
+                        class="card-title"
+                        href="/listings/<%= listing._id %>"
+                    >
+                        <%= listing.title %>
+                    </a>
+
+                    <p class="card-price">
+                        &#8377;<%= listing.price
+                            ? listing.price.toLocaleString("en-IN")
+                            : "Not specified"
+                        %>
+
+                        <span>per night</span>
+                    </p>
+
+                </div>
+
+            </div>
+
+        <% } %>
+
+    </div>
+
 </body>
 

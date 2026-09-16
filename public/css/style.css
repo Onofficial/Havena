@@ -1,6 +1,37 @@
-/* =========================
+/* =========================================================
+   HAVENA — GLOBAL
+========================================================= */
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    background-color:#f3f0e8 !important;
+    color: #171717;
+}
+
+
+
+
+
+.container,
+.container-fluid,
+.row,
+.col {
+    width: auto !important;
+    max-width: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+/* =========================================================
    HAVENA NAVBAR
-========================= */
+========================================================= */
 
 .navbar {
     background-color: #2C2A26 !important;
@@ -9,19 +40,36 @@
 
 .navbar .navbar-brand {
     color: #F4F0E6 !important;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.05rem;
+    font-weight: 600 !important;
+
+    letter-spacing: -0.2px;
 }
 
 .navbar .nav-link {
     color: #F4F0E6 !important;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500 !important;
+
+    transition: color 0.2s ease;
 }
 
 .navbar .nav-link:hover {
     color: #A3AD8D !important;
 }
-/* Listing links */
+
+
+/* =========================================================
+   LINKS
+========================================================= */
 
 a {
     color: #3B3935;
+    transition: color 0.2s ease;
 }
 
 a:hover {
@@ -30,49 +78,416 @@ a:hover {
 
 
 /* =========================
-   HAVENA FOOTER
+   HAVENA LISTING GRID
 ========================= */
+
+.listing-grid {
+    width: 100%;
+    max-width: 1400px;
+    margin: 50px auto 80px;
+
+    padding: 0 30px;
+
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    gap: 28px;
+}
+
+
+/* =========================
+   HAVENA CARD
+========================= */
+
+.listing-grid .card {
+    width: 100% !important;
+    min-width: 0;
+
+    border: none !important;
+    border-radius: 20px !important;
+
+    overflow: hidden;
+
+    background: #f8f5ee !important;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.07);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+    margin: 0 !important;
+}
+
+
+/* =========================
+   CARD HOVER
+========================= */
+
+.listing-grid .card:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 18px 40px rgba(0, 0, 0, 0.13);
+}
+
+
+/* =========================
+   CARD IMAGE
+========================= */
+
+.listing-grid .card-img-top {
+    width: 100% !important;
+    height: 280px !important;
+
+    object-fit: cover;
+
+    display: block;
+
+    border: none !important;
+    border-radius: 20px !important;
+
+    transition: transform 0.5s ease;
+}
+
+
+/* Image zoom */
+
+.listing-grid .card:hover .card-img-top {
+    transform: scale(1.04);
+}
+
+
+/* =========================
+   CARD BODY
+========================= */
+
+.listing-grid .card .card-body {
+    padding: 22px 26px 25px !important;
+
+    background: #f8f5ee !important;
+
+    border: none !important;
+}
+
+
+/* =========================
+   CARD TITLE
+========================= */
+
+.listing-grid .card .card-title {
+    display: block;
+
+    margin: 0 0 10px !important;
+
+    font-family:
+        "Plus Jakarta Sans",
+        sans-serif;
+
+    font-size: 18px !important;
+
+    font-weight: 700 !important;
+
+    line-height: 1.35;
+
+    color: #171717 !important;
+
+    text-decoration: none;
+}
+
+
+/* Title hover */
+
+.listing-grid .card .card-title:hover {
+    color: #8f5944 !important;
+}
+
+
+/* =========================
+   CARD PRICE
+========================= */
+
+.listing-grid .card .card-price {
+    margin: 0 !important;
+
+    font-family:
+        "Plus Jakarta Sans",
+        sans-serif;
+
+    font-size: 16px !important;
+
+    font-weight: 700 !important;
+
+    color: #171717 !important;
+}
+
+
+/* "per night" */
+
+.listing-grid .card .card-price span {
+    font-size: 14px;
+
+    font-weight: 400;
+
+    color: #6f6a61;
+}
+
+
+/* =========================
+   IMAGE WRAPPER EFFECT
+========================= */
+
+.listing-grid .card {
+    position: relative;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1200px) {
+
+    .listing-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+         background: transparent;
+    }
+
+}
+
+
+@media (max-width: 900px) {
+
+    .listing-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        padding: 0 24px;
+    }
+
+    .listing-grid .card-img-top {
+        height: 250px !important;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .listing-grid {
+        grid-template-columns: 1fr;
+
+        padding: 0 18px;
+
+           margin: 35px auto 80px;
+    }
+
+    .listing-grid .card-img-top {
+        height: 260px !important;
+    }
+
+    .listing-grid .card .card-body {
+        padding: 20px !important;
+    }
+
+}
+
+/* =========================
+   HAVENA HERO
+========================= */
+
+.hero-section {
+    width: 100%;
+
+      padding: 65px 8% 55px;
+
+    background: #f8f5ee;
+
+    border-bottom: 1px solid #eee9df;
+}
+
+
+.hero-content {
+    max-width: 900px;
+}
+
+
+/* Small heading */
+
+.hero-eyebrow {
+    margin: 0 0 18px;
+
+    font-family:
+        "Plus Jakarta Sans",
+        sans-serif;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    letter-spacing: 3px;
+
+    color: #8f5944;
+}
+
+
+/* Main heading */
+
+.hero-section h1 {
+    margin: 0;
+
+    font-family:
+        "Plus Jakarta Sans",
+        sans-serif;
+
+    font-size: clamp(48px, 6vw, 78px);
+
+    font-weight: 700;
+
+    line-height: 1.02;
+
+    letter-spacing: -3px;
+
+    color: #171717;
+}
+
+
+/* Description */
+
+.hero-description {
+    max-width: 650px;
+
+    margin: 24px 0 0;
+
+    font-family:
+        "Plus Jakarta Sans",
+        sans-serif;
+
+    font-size: 17px;
+
+    font-weight: 400;
+
+    line-height: 1.7;
+
+    color: #68635b;
+}
+
+
+/* =========================
+   HERO RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .hero-section {
+        padding: 55px 30px 50px;
+    }
+
+    .hero-section h1 {
+        font-size: 48px;
+
+        letter-spacing: -2px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .hero-section {
+        padding: 45px 22px 45px;
+    }
+
+    .hero-section h1 {
+        font-size: 40px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+}
+
+
+/* =========================================================
+   HAVENA FOOTER
+========================================================= */
 
 footer {
     background-color: #24221F;
+
     color: #F4F0E6;
 
     padding: 2.5rem 3rem;
+
     margin-top: 4rem;
 
     display: flex;
+
     justify-content: space-between;
+
     align-items: center;
+
     flex-wrap: wrap;
+
     gap: 1.5rem;
 }
 
+
+/* =========================================================
+   FOOTER SOCIAL
+========================================================= */
+
 .f-info-social {
     display: flex;
+
+    align-items: center;
+
     gap: 1rem;
 }
 
 .f-info-social i {
     color: #F4F0E6;
+
     font-size: 1.2rem;
 
-    transition: color 0.2s ease;
+    transition:
+        color 0.2s ease,
+        transform 0.2s ease;
 }
 
 .f-info-social i:hover {
     color: #A3AD8D;
+
+    transform: translateY(-2px);
 }
+
+
+/* =========================================================
+   FOOTER LINKS
+========================================================= */
 
 .f-info-links {
     display: flex;
+
+    align-items: center;
+
     gap: 1.5rem;
 }
 
 .f-info-links a {
     color: #F4F0E6;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
     text-decoration: none;
 
-    transition: color 0.2s ease;
+    transition:
+        color 0.2s ease;
 }
 
 .f-info-links a:hover {
