@@ -93,6 +93,11 @@ a:hover {
    HAVENA CARD
 ========================= */
 
+.listing-grid .card-link {
+    color: inherit;
+    text-decoration: none;
+}
+
 .listing-grid .card {
     width: 100% !important;
     min-width: 0;

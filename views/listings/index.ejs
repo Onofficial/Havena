@@ -34,7 +34,7 @@
     <div class="listing-grid">
 
         <% for (let listing of allListings) { %>
-
+           <a class="card-link" href="/listings/<%= listing._id %>">
             <div class="card">
 
                 <img
@@ -45,12 +45,9 @@
 
                 <div class="card-body">
 
-                    <a
-                        class="card-title"
-                        href="/listings/<%= listing._id %>"
-                    >
+                    <p class="card-title">
                         <%= listing.title %>
-                    </a>
+                    </p>
 
                     <p class="card-description">
                         <%= listing.description %>
@@ -68,6 +65,7 @@
                 </div>
 
             </div>
+            </a>
 
         <% } %>
 
