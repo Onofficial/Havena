@@ -70,6 +70,29 @@ a:hover {
     color: #B86B4B;
 }
 
+.new-listing-form {
+    width: 100%;
+    max-width: 720px;
+}
+
+.new-listing-title {
+    max-width: 720px;
+    margin: 0 0 0.65rem;
+    color: #2C2A26;
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    line-height: 1.05;
+}
+
+.new-listing-intro {
+    max-width: 580px;
+    margin: 0 0 2rem;
+    color: #6d685f;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
 
 /* =========================
    HAVENA LISTING GRID

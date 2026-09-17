@@ -1,50 +1,56 @@
 <% layout("/layouts/boilerplate")%>
 <body>
-    <main>
-        <p>Havena</p>
-        <h1>Create a new stay</h1>
-        <p>Share the details that help travellers picture their next escape.</p>
+    <main class="new-listing-page px-3 px-md-4 py-4">
+        <div class="row">
+            <div class="col-12 col-md-8 offset-md-2">
+                <br> <br>
+                <h1 class="new-listing-title">Edit your stay</h1>
+                <p class="new-listing-intro">Update the details that help travellers picture their next escape.</p>
 
-        <form method="POST" action="/listings/<%= listing._id %>?_method=PUT">
-            <div>
-                <div>
-                    <label for="title">Listing title</label>
-                    <input id="title" name="listing[title]" type="text"
-                    value="<%= listing.title %>" placeholder="e.g. Seaside cottage with sunset views" required autofocus>
-                </div>
+                <form method="POST" action="/listings/<%= listing._id %>?_method=PUT" class="new-listing-form mt-4">
+                    <div>
+                        <div class="mb-3">
+                            <label for="title" class="form-label fw-semibold">Listing title</label>
+                            <input id="title" class="form-control form-control-lg shadow-sm" name="listing[title]" type="text"
+                                value="<%= listing.title %>" placeholder="e.g. Seaside cottage with sunset views" required autofocus>
+                        </div>
 
-                <div>
-                    <label for="description">Description</label>
-                    <textarea id="description" value="<%= listing.description %>"  name="listing[description]"  placeholder="Tell guests what makes this place special..." required></textarea>
-                </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold" for="description">Description</label>
+                            <textarea id="description" class="form-control shadow-sm" name="listing[description]" rows="4" placeholder="Tell guests what makes this place special..." required><%= listing.description %></textarea>
+                        </div>
 
-                <div>
-                    <label for="image">Image URL <span aria-hidden="true">(optional)</span></label>
-                    <input id="image" value="<%= listing.image %>" name="listing[image]" type="url" placeholder="https://images.example.com/your-stay.jpg">
-                    <p>Use a direct link to a photo of your listing.</p>
-                </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold" for="image">Image URL <span aria-hidden="true">(optional)</span></label>
+                            <input id="image" class="form-control shadow-sm" value="<%= listing.image %>" name="listing[image]" type="url" placeholder="https://images.example.com/your-stay.jpg">
+                            <p class="form-text">Use a direct link to a photo of your listing.</p>
+                        </div>
 
-                <div>
-                    <label for="price">Price per night (₹)</label>
-                    <input id="price" value="<%= listing.price %>" name="listing[price]" type="number" min="0" step="1" placeholder="2500" required>
-                </div>
+                        <div class="row g-3">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-semibold" for="price">Price per night (₹)</label>
+                                <input id="price" class="form-control shadow-sm" value="<%= listing.price %>" name="listing[price]" type="number" min="0" step="1" placeholder="2500" required>
+                            </div>
 
-                <div>
-                    <label for="location">Location</label>
-                    <input id="location" value="<%= listing.location %>" name="listing[location]" type="text" placeholder="Goa" required>
-                </div>
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label fw-semibold" for="location">Location</label>
+                                <input id="location" class="form-control shadow-sm" value="<%= listing.location %>" name="listing[location]" type="text" placeholder="Goa" required>
+                            </div>
+                        </div>
 
-                <div>
-                    <label for="country">Country</label>
-                    <input id="country" value="<%= listing.country %>" name="listing[country]" type="text" placeholder="India" required>
-                </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold" for="country">Country</label>
+                            <input id="country" class="form-control shadow-sm" value="<%= listing.country %>" name="listing[country]" type="text" placeholder="India" required>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-3">
+                        <a href="/listings" class="btn btn-outline-secondary">Cancel</a>
+                        <button type="submit" class="btn btn-dark">Update listing</button>
+                    </div>
+                </form>
             </div>
-
-            <div>
-                <a href="/listings">Cancel</a>
-                <button type="submit">edit it</button>
-            </div>
-        </form>
+        </div>
     </main>
 </body>
 
