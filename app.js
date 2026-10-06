@@ -98,17 +98,44 @@ app.delete("/listings/:id", wrapAsync(async (req,res) => {
 }))
 
 
-
 app.all("/{*splat}", (req, res, next) => {
     next(new ExpressError(404, "Page Not Found"));
 });
 
-// custom middilware
+// custom middleware
 app.use((err, req, res, next) => {
-  let {statusCode=500 , message="something went wrong!"} = err;
-  res.status(statusCode).render("listings/error.ejs", { message });
-//   res.render("error.ejs", {message})
-//   res.status(statusCode).send(message);
+    let statusCode = err.statusCode || 500;
+    let message = err.message || "Something went wrong!";
+
+    // 400 — Bad Request
+    if (statusCode === 400) {
+        message = "The information you submitted is not valid.";
+    }
+
+    // 401 — Unauthorized
+    if (statusCode === 401) {
+        message = "You need to log in to continue.";
+    }
+
+    // 403 — Forbidden
+    if (statusCode === 403) {
+        message = "You do not have permission to access this page.";
+    }
+
+    // 404 — Not Found
+    if (statusCode === 404) {
+        message = "The page or listing you are looking for could not be found.";
+    }
+
+    // 500 — Internal Server Error
+    if (statusCode === 500) {
+        message = "Something went wrong on our end. Please try again later.";
+    }
+
+    res.status(statusCode).render("listings/error.ejs", {
+        statusCode,
+        message
+    });
 });
 
 app.listen(8080, () => {
