@@ -2,14 +2,27 @@
    HAVENA — GLOBAL
 ========================================================= */
 
+html,
 body {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 
-    background-color:#f3f0e8 !important;
+    background-color: #f3f0e8 !important;
     color: #171717;
+}
+
+main {
+    flex: 1;
 }
 .container,
 .container-fluid,
@@ -681,5 +694,181 @@ show img */
 
 .show-img {
     height: 30vh;
+
+}
+/* =========================================================
+   HAVENA — ERROR PAGE
+========================================================= */
+
+.error-page {
+    flex: 1;
+
+    min-height: 60vh;
+    padding: 80px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f3f0e8;
+    color: #171717;
+}
+
+.error-content {
+    width: 100%;
+    max-width: 700px;
+
+    text-align: center;
+}
+
+
+/* 404 */
+
+.error-code {
+    margin: 0;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: clamp(7rem, 18vw, 12rem);
+    font-weight: 700;
+
+    line-height: 0.85;
+    letter-spacing: -0.08em;
+
+    color: #171717;
+}
+
+
+/* Divider */
+
+.error-divider {
+    width: 64px;
+    height: 2px;
+
+    margin: 38px auto 28px;
+
+    background-color: #A3AD8D;
+}
+
+
+/* Heading */
+
+.error-content h1 {
+    margin: 0 0 18px;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 600;
+
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+
+    color: #171717;
+}
+
+
+/* Description */
+
+.error-content p {
+    max-width: 500px;
+
+    margin: 0 auto 35px;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+    line-height: 1.7;
+
+    color: #68635b;
+}
+
+
+/* Button */
+
+.error-btn {
+    display: inline-block;
+
+    padding: 13px 26px;
+
+    border: 1px solid #171717;
+    border-radius: 999px;
+
+    background-color: transparent;
+
+    color: #171717;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+    text-decoration: none;
+
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.error-btn:hover {
+    background-color: #171717;
+    color: #f3f0e8;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   ERROR PAGE — MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+    .error-page {
+        min-height: 60vh;
+        padding: 70px 25px;
+    }
+
+    .error-code {
+        font-size: clamp(6rem, 25vw, 9rem);
+    }
+
+    .error-content h1 {
+        font-size: 2rem;
+    }
+
+    .error-content p {
+        font-size: 14px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .error-page {
+        min-height: 55vh;
+        padding: 60px 20px;
+    }
+
+    .error-code {
+        font-size: 6rem;
+    }
+
+    .error-divider {
+        margin: 30px auto 24px;
+    }
+
+    .error-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .error-content p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .error-btn {
+        padding: 12px 22px;
+    }
 
 }
